@@ -8,4 +8,6 @@ This game will improve your logical thinking and analytical skills and it goes l
 - The challenge is to guess the number in minimum no. of trials and least amount of time, which will be displayed after guessing the number.
 - You have an option to replay the game after right guess, if you wish to do so.
 
+**********************************************************************************************************************************************************************
+
 - Have a Fun Journey to sharpen you analytical skills !!!
