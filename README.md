@@ -10,4 +10,4 @@ This game will improve your logical thinking and analytical skills and it goes l
 
 **********************************************************************************************************************************************************************
 
-- Have a Fun Journey to sharpen you analytical skills !!!
+- Have a Fun Journey sharpening your analytical skills !!!
