@@ -71,6 +71,8 @@ class colors:
 
 #************************************************************************************
 
+# This takes a string input and return true only if the user
+
 def input_validation(other_num):
 	
 	if (len(other_num)!=4):
@@ -112,18 +114,18 @@ def main():
 
 			try:
 
-				other_ni = input(colors.RED + '\n Enter Guess no. {} :\t'.format(i))
+				other_ni = int(input(colors.RED + '\n Enter Guess no. {} :\t'.format(i)))
 
-			except SyntaxError as e:
+			except ValueError as e:
 		
 				other_ni = 0
 
 			while(input_validation(str(other_ni)) == False):
 
 				try:
-					other_ni = input('\n Invalid Input. Please Enter 4 digit number without zeros & repetition of digits:\t') 
+					other_ni = int(input('\n Invalid Input. Please Enter 4 digit number without zeros & repetition of digits:\t')) 
 
-				except SyntaxError as e:
+				except ValueError as e:
 
 					other_ni = 0
 
