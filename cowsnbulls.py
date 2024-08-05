@@ -45,8 +45,10 @@ def rand_4dn():
 	
 		value = randint(1,9)
 	
-		while (value in my_num):	
-			value = randint(1,9) 
+		while (value in my_num):
+                        
+			value = randint(1,9)
+			
 		my_num.append(value)
 	
 	return my_num
@@ -71,17 +73,23 @@ class colors:
 
 #************************************************************************************
 
-# This takes a string input and return true only if the user
+# This takes a string input and return true only if the user number contains exactly 4 unique digits without a zero
 
 def input_validation(other_num):
 	
 	if (len(other_num)!=4):
+                
 		return False
+	
 	elif ('0' in other_num):
+                
 		return False
+	
 	elif (len(other_num)!=len(set(other_num))):
+                
 		return False
-	else:
+	
+	else:                
 		return True
 	
 #************************************************************************************
