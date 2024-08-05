@@ -90,7 +90,7 @@ def main():
 	
 	play = input(colors.BLUE + '\n Do you want to play Cows & Bulls now ? Enter (y/n):\t')[0]
 
-	while(play[0] == str('y')):
+	while(play == 'y'):
 
 		t1 = time()
 	
