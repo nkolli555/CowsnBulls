@@ -6,7 +6,7 @@ from time import time
 
 #************************************************************************************
 
-# This function counts no.of cows and bulls
+# This function counts no.of cows and bulls based on two number array inputs - my_num, other_num
 
 def count_cb(my_num,other_num):				
 	
@@ -28,8 +28,6 @@ def count_cb(my_num,other_num):
 
 		except ValueError:
 			pass 
-
-		i+=1
 
 	return (cows,bulls)
 
