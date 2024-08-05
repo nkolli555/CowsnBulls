@@ -112,7 +112,7 @@ def main():
 
 		my_ni = int("".join(map(str, my_nl)))													# Converting list->string->int
 
-		cb = (0,0)
+		cb = [0,0]
 
 		i = 0
 
